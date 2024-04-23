@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import CardUI from "@/components/CardUI";
 const Home = () => {
   return (
     <main className="flex flex-col items-center">
@@ -101,18 +102,7 @@ const Home = () => {
               </CardContent>
             </CardHeader>
           </Card>
-          <Card className="min-w-[80%]">
-            <CardHeader>
-              <CardDescription>Gemeinde Niederbipp sucht:</CardDescription>
-              <CardTitle>
-                KV-Mitarbeiter/in im Bereich Kindes- und Erwachsenenschutz
-                (100%)
-              </CardTitle>
-              <CardContent className="pl-0">
-                <p className="ml-0">Arbeitsort: Region Niederbipp SO</p>
-              </CardContent>
-            </CardHeader>
-          </Card>
+          <CardUI />
           <Card className="min-w-[80%]">
             <CardHeader>
               <CardDescription>Gemeinde Niederbipp sucht:</CardDescription>
